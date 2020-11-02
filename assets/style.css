@@ -1,0 +1,163 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 100px;   
+}
+
+/*Header container styling*/
+
+header {
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    min-height: 70px;
+    border-bottom: #ffffff 4px solid;
+}
+
+header h1 {
+    color: #ffffff;
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+}
+
+/*navigation bar*/
+header a {
+    color: #ffffff;
+    list-style-type: none;
+    font-family: serif;
+    font-size: 15px;
+    font-style: italic;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    list-style-type: none;
+    padding: 0 20px 0 20px;
+}
+
+/*Jumbotron*/
+.jumbotron {
+background-image: url(https://media.glassdoor.com/l/61/c4/8a/61/downtown-grand-rapids-hotel-skyline.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+filter: grayscale(75%);
+padding-top: 30px;
+padding-bottom: 10px;
+min-height: 70px;
+color: #ffffff;
+border-bottom: #ffffff 4px solid;
+font-family: 'Tangerine', cursive;
+}
+
+
+/*Home/About Me page*/
+#new {
+    padding: 25px;
+    background: #ffffff;
+}
+
+#Florence { 
+    padding-right: 20px;
+    max-height: 500px;
+    max-width: 70%;
+    float: left;
+    clear: both;
+    border-radius: 8px;
+}
+
+p {
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/*Portfolio*/
+
+.card-deck {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #ffffff;
+    font-family: 'Roboto Slab', serif;
+}
+
+.card {
+    border: #000000 3px solid;
+}
+
+.card-body {
+    background: #000000;
+    color: #ffffff;
+}
+
+.card-img-top {
+    filter: grayscale(100%);
+}
+
+.card-title {
+    font-style: italic;
+    font-size: 45px;
+}
+
+/*Contact Page*/
+#contact {
+    padding-top: 20px;
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+}
+
+#h2-contact {
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+}
+
+.btn {
+    background: #000000;
+    border: #000000;
+
+}
+
+#connect {
+    padding: 25px;
+}
+
+
+/*footer*/
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+}
+
+.fa {
+    padding: 5px 10px 5px 0;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        text-align: center;
+    }
+      #bar {
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+    #Florence {
+        padding-bottom: 10px;
+    }
+}
