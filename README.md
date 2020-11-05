@@ -2,11 +2,7 @@
 
 # Technologies Used
 
-HTML
-CSS
-Bootstrap
-Font Awesome
-Google Fonts
+HTML, CSS, Bootstrap, Font Awesome, and Google Fonts
 
 # Application Description
 
