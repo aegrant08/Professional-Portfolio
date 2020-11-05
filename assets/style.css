@@ -50,6 +50,7 @@ header li {
 
 /*Jumbotron*/
 .jumbotron {
+background-color: #ffffff;
 filter: grayscale(75%);
 padding-top: 30px;
 padding-bottom: 10px;
