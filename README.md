@@ -12,9 +12,15 @@ An evolving portfolio used to showcase my budding skills as a web developer. The
 
 The landing page has a photo of me and a small bio about myself.
 
+![Landing Page](assets/screen-shots/1-Landing-Page.png?raw=true)
+
 The portfolio page has six spots to showcase projects I am especially proud of, and four of them are linked to projects on my GitHub.
 
+![Portfolio Page](assets/screen-shots/2-Portfolio-Page.png?raw=true)
+
 The contact page has a spot to reach out to me with your contact information.
+
+![Contact Page](assets/screen-shots/3-Contact-Page.png?raw=true)
 
 *Deployed Page Link*
 https://aegrant08.github.io/Professional-Portfolio/
