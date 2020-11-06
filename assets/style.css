@@ -116,6 +116,11 @@ p {
     color: #ffffff;
 }
 
+.github-link {
+    color: #ffffff;
+    font-weight: bold;
+}
+
 
 /*Contact Page*/
 #contact {
